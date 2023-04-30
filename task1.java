@@ -7,31 +7,31 @@ import java.util.Map.Entry;
 
 public class task1{
     public static void main(String[] args) {
-        notebook not1=new notebook("A5",1236,"Xiaomi");
-        not1.setColor("black");
-        not1.setHDD(700);
+        notebook not1=new notebook("HYM-W56",123,"Honor");
+        not1.setColor("grey");
+        not1.setHDD(512);
         not1.setOS("Windows");
-        not1.setRAM(8);
+        not1.setRAM(16);
         
-        notebook not2=new notebook("ABC30",6467,"Acer");
-        not2.setColor("white");
-        not2.setHDD(1000);
+        notebook not2=new notebook("IdeaPad 3 ",4576,"Lenovo");
+        not2.setColor("black");
+        not2.setHDD(256);
         not2.setOS("Windows");
         not2.setRAM(8);
 
-        notebook not3=new notebook("AB97",67201,"Acer");
-        not3.setColor("rose");
+        notebook not3=new notebook("D 14 NbD-WDI9",7589,"HUAWEI");
+        not3.setColor("grey");
         not3.setHDD(900);
         not3.setOS("Windows");
-        not3.setRAM(16);
+        not3.setRAM(8);
 
-        notebook not4=new notebook("OMAN11",1111,"hp");
-        not4.setColor("black");
+        notebook not4=new notebook("M1702QA-AU081",9874,"ASUS");
+        not4.setColor("white");
         not4.setHDD(700);
         not4.setOS("Linux");
-        not4.setRAM(8);
+        not4.setRAM(16);
 
-        notebook not5=new notebook("MAC101",8438483,"Apple");
+        notebook not5=new notebook("MAC101",6541,"Apple");
         not5.setColor("silver");
         not5.setHDD(1000);
         not5.setOS("macOS");
