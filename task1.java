@@ -75,7 +75,7 @@ public class task1{
     }
         for (Entry<String, Object> entry : filters.entrySet()) {
             if(entry.getKey().equals("RAM")){
-                Iterator itr = notebooks.iterator();
+                Iterator<notebook> itr = notebooks.iterator();
                 while(itr.hasNext()){
                     notebook not = (notebook) itr.next();
                     if(not.getRAM()>=(Integer)entry.getValue()){
@@ -84,7 +84,7 @@ public class task1{
                     }
                     }
         if(entry.getKey().equals("HDD")){
-            Iterator itr = notebooks.iterator();
+            Iterator<notebook> itr = notebooks.iterator();
             while(itr.hasNext()){
                 notebook not = (notebook)itr.next();
                     if(not.getHDD()>=(Integer)entry.getValue()){
@@ -93,7 +93,7 @@ public class task1{
                     }
                     }
         if(entry.getKey().equals("OS")){
-            Iterator itr = notebooks.iterator();
+            Iterator<notebook> itr = notebooks.iterator();
             while(itr.hasNext()){
                 notebook not = (notebook)itr.next();
                     if(not.getOS().equals(entry.getValue())){
@@ -102,7 +102,7 @@ public class task1{
                     }
                     }
         if(entry.getKey().equals("color")){
-            Iterator itr = notebooks.iterator();
+            Iterator<notebook> itr = notebooks.iterator();
             while(itr.hasNext()){
                 notebook not = (notebook)itr.next();
                     if(not.getColor().equals(entry.getValue())){
@@ -112,7 +112,7 @@ public class task1{
                     }
         }
                 
-        Iterator itr = res.iterator();
+        Iterator<notebook> itr = res.iterator();
         while(itr.hasNext()){
             notebook not = (notebook)itr.next();
             System.out.println(not.toString());
